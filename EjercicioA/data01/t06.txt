@@ -1,0 +1,35 @@
+Definition - What does MapReduce mean?
+
+MapReduce is a programming model introduced by Google for processing and generating large data sets on clusters of
+computers.
+
+Google first formulated the framework for the purpose of serving Google’s Web page indexing, and the new framework
+replaced earlier indexing algorithms. Beginner developers find the MapReduce framework beneficial because library
+routines can be used to create parallel programs without any worries about infra-cluster communication, task monitoring
+or failure handling processes.
+
+The MapReduce framework has two parts:
+
+A function called "Map," which allows different points of the distributed cluster to distribute their work.
+A function called "Reduce," which is designed to reduce the final form of the clusters’ results into one output.
+MapReduce runs on a large cluster of commodity machines and is highly scalable. It has several forms of implementation
+provided by multiple programming languages, like Java, C# and C++.
+
+Techopedia explains MapReduce
+
+The main advantage of the MapReduce framework is its fault tolerance, where periodical reports from each node in the
+cluster are expected when work is completed.
+
+A task is transferred from one node to another. If the master node notices that a node has been silent for a longer
+interval than expected, the main node performs the reassignment process to the frozen/delayed task.
+
+The MapReduce framework is inspired by the "Map" and "Reduce" functions used in functional programming. Computational
+processing occurs on data stored in a file system or within a database, which takes a set of input key values and
+produces a set of output key values. Numerous MapReduce programs and MapReduce jobs are executed on Google's clusters
+each day. Programs are automatically parallelized and executed on a large cluster of commodity machines. The runtime
+system deals with partitioning the input data, scheduling the program's execution across a set of machines, machine
+failure handling and managing required inter-machine communication. Programmers without any experience with parallel and
+distributed systems can easily use the resources of a large distributed system.
+
+MapReduce is used in distributed grep, distributed sort, Web link-graph reversal, Web access log stats, document
+clustering, machine learning and statistical machine translation.
